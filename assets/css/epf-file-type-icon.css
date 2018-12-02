@@ -1,0 +1,611 @@
+
+@font-face {
+  font-family: "FlaticonFileType";
+  src: url("../fonts/flaticon-filetype.eot");
+  src: url("../fontsflaticon-filetype.eot#iefix") format("embedded-opentype"), url("../fonts/flaticon-filetype.woff") format("woff"), url("../fonts/flaticon-filetype.ttf") format("truetype"), url("../fonts/flaticon-filetype.svg") format("svg");
+}
+[class^="epf-filetype-"]:before,
+[class*=" epf-filetype-"]:before {
+  font-family: FlaticonFileType;
+  font-weight: normal;
+  font-style: normal;
+  text-decoration: none;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+  content: "";
+  font-size: 35px;
+  line-height: 0.83333333em;
+  vertical-align: -10%;
+  content: "\e033";
+
+}
+
+.epf-filetype-doc:before {
+  color: #2C5898;
+}
+.epf-filetype-docx:before {
+  color: #2C5898;
+}
+.epf-filetype-pdf:before {
+  color: #DB0000;
+}
+.epf-filetype-ppt:before {
+  color: #D24625;
+}
+.epf-filetype-pptx:before {
+  color: #D24625;
+}
+.epf-filetype-xls:before {
+  color: #207347;
+}
+.epf-filetype-xlsx:before {
+  color: #207347;
+}
+.epf-filetype-3dm:before {
+  content: "\e000";
+}
+.epf-filetype-3ds:before {
+  content: "\e001";
+}
+.epf-filetype-3g:before {
+  content: "\e002";
+}
+.epf-filetype-3gp:before {
+  content: "\e003";
+}
+.epf-filetype-7z:before {
+  content: "\e004";
+}
+.epf-filetype-aac:before {
+  content: "\e005";
+}
+.epf-filetype-ai:before {
+  content: "\e006";
+}
+.epf-filetype-aif:before {
+  content: "\e007";
+}
+.epf-filetype-apk:before {
+  content: "\e008";
+}
+.epf-filetype-app:before {
+  content: "\e009";
+}
+.epf-filetype-apple:before {
+  content: "\e00a";
+}
+.epf-filetype-archive:before {
+  content: "\e00b";
+}
+.epf-filetype-archive:before {
+  content: "\e00c";
+}
+.epf-filetype-archive:before {
+  content: "\e00d";
+}
+.epf-filetype-asf:before {
+  content: "\e00e";
+}
+.epf-filetype-asp:before {
+  content: "\e00f";
+}
+.epf-filetype-aspx:before {
+  content: "\e010";
+}
+.epf-filetype-asx:before {
+  content: "\e011";
+}
+.epf-filetype-avi:before {
+  content: "\e012";
+}
+.epf-filetype-bak:before {
+  content: "\e013";
+}
+.epf-filetype-bat:before {
+  content: "\e014";
+}
+.epf-filetype-bin:before {
+  content: "\e015";
+}
+.epf-filetype-bmp:before {
+  content: "\e016";
+}
+.epf-filetype-cab:before {
+  content: "\e017";
+}
+.epf-filetype-cad:before {
+  content: "\e018";
+}
+.epf-filetype-cdr:before {
+  content: "\e019";
+}
+.epf-filetype-cer:before {
+  content: "\e01a";
+}
+.epf-filetype-cfg:before {
+  content: "\e01b";
+}
+.epf-filetype-cfm:before {
+  content: "\e01c";
+}
+.epf-filetype-cgi:before {
+  content: "\e01d";
+}
+.epf-filetype-class:before {
+  content: "\e01e";
+}
+.epf-filetype-com:before {
+  content: "\e01f";
+}
+.epf-filetype-cpl:before {
+  content: "\e020";
+}
+.epf-filetype-cpp:before {
+  content: "\e021";
+}
+.epf-filetype-crx:before {
+  content: "\e022";
+}
+.epf-filetype-csr:before {
+  content: "\e023";
+}
+.epf-filetype-css:before {
+  content: "\e024";
+}
+.epf-filetype-csv:before {
+  content: "\e025";
+}
+.epf-filetype-cue:before {
+  content: "\e026";
+}
+.epf-filetype-cur:before {
+  content: "\e027";
+}
+.epf-filetype-dat:before {
+  content: "\e028";
+}
+.epf-filetype-db:before {
+  content: "\e029";
+}
+.epf-filetype-dbf:before {
+  content: "\e02a";
+}
+.epf-filetype-dds:before {
+  content: "\e02b";
+}
+.epf-filetype-dem:before {
+  content: "\e02c";
+}
+.epf-filetype-dll:before {
+  content: "\e02d";
+}
+.epf-filetype-dmg:before {
+  content: "\e02e";
+}
+.epf-filetype-dmp:before {
+  content: "\e02f";
+}
+.epf-filetype-doc:before {
+  content: "\e030";
+}
+.epf-filetype-document:before {
+  content: "\e031";
+}
+.epf-filetype-document:before {
+  content: "\e032";
+}
+.epf-filetype-document:before {
+  content: "\e033";
+}
+.epf-filetype-docx:before {
+  content: "\e034";
+}
+.epf-filetype-drv:before {
+  content: "\e035";
+}
+.epf-filetype-dtd:before {
+  content: "\e036";
+}
+.epf-filetype-dwg:before {
+  content: "\e037";
+}
+.epf-filetype-dxf:before {
+  content: "\e038";
+}
+.epf-filetype-elf:before {
+  content: "\e039";
+}
+.epf-filetype-emoticon:before {
+  content: "\e03a";
+}
+.epf-filetype-emoticon:before {
+  content: "\e03b";
+}
+.epf-filetype-envelope:before {
+  content: "\e03c";
+}
+.epf-filetype-eps:before {
+  content: "\e03d";
+}
+.epf-filetype-eps:before {
+  content: "\e03e";
+}
+.epf-filetype-exe:before {
+  content: "\e03f";
+}
+.epf-filetype-fla:before {
+  content: "\e040";
+}
+.epf-filetype-flash:before {
+  content: "\e041";
+}
+.epf-filetype-flv:before {
+  content: "\e042";
+}
+.epf-filetype-fnt:before {
+  content: "\e043";
+}
+.epf-filetype-fon:before {
+  content: "\e044";
+}
+.epf-filetype-gam:before {
+  content: "\e045";
+}
+.epf-filetype-gbr:before {
+  content: "\e046";
+}
+.epf-filetype-ged:before {
+  content: "\e047";
+}
+.epf-filetype-gif:before {
+  content: "\e048";
+}
+.epf-filetype-gpx:before {
+  content: "\e049";
+}
+.epf-filetype-gz:before {
+  content: "\e04a";
+}
+.epf-filetype-gzip:before {
+  content: "\e04b";
+}
+.epf-filetype-hqz:before {
+  content: "\e04c";
+}
+.epf-filetype-html:before {
+  content: "\e04d";
+}
+.epf-filetype-ibooks:before {
+  content: "\e04e";
+}
+.epf-filetype-icns:before {
+  content: "\e04f";
+}
+.epf-filetype-ico:before {
+  content: "\e050";
+}
+.epf-filetype-ics:before {
+  content: "\e051";
+}
+.epf-filetype-iff:before {
+  content: "\e052";
+}
+.epf-filetype-indd:before {
+  content: "\e053";
+}
+.epf-filetype-iso:before {
+  content: "\e054";
+}
+.epf-filetype-iso:before {
+  content: "\e055";
+}
+.epf-filetype-jar:before {
+  content: "\e056";
+}
+.epf-filetype-jpg:before {
+  content: "\e057";
+}
+.epf-filetype-js:before {
+  content: "\e058";
+}
+.epf-filetype-jsp:before {
+  content: "\e059";
+}
+.epf-filetype-key:before {
+  content: "\e05a";
+}
+.epf-filetype-kml:before {
+  content: "\e05b";
+}
+.epf-filetype-kmz:before {
+  content: "\e05c";
+}
+.epf-filetype-lnk:before {
+  content: "\e05d";
+}
+.epf-filetype-log:before {
+  content: "\e05e";
+}
+.epf-filetype-lua:before {
+  content: "\e05f";
+}
+.epf-filetype-m3u:before {
+  content: "\e060";
+}
+.epf-filetype-m4a:before {
+  content: "\e061";
+}
+.epf-filetype-m4v:before {
+  content: "\e062";
+}
+.epf-filetype-macho:before {
+  content: "\e063";
+}
+.epf-filetype-max:before {
+  content: "\e064";
+}
+.epf-filetype-mdb:before {
+  content: "\e065";
+}
+.epf-filetype-mdf:before {
+  content: "\e066";
+}
+.epf-filetype-mid:before {
+  content: "\e067";
+}
+.epf-filetype-mim:before {
+  content: "\e068";
+}
+.epf-filetype-mov:before {
+  content: "\e069";
+}
+.epf-filetype-mp:before {
+  content: "\e06a";
+}
+.epf-filetype-mp:before {
+  content: "\e06b";
+}
+.epf-filetype-mpa:before {
+  content: "\e06c";
+}
+.epf-filetype-mpg:before {
+  content: "\e06d";
+}
+.epf-filetype-msg:before {
+  content: "\e06e";
+}
+.epf-filetype-msi:before {
+  content: "\e06f";
+}
+.epf-filetype-nes:before {
+  content: "\e070";
+}
+.epf-filetype-object:before {
+  content: "\e071";
+}
+.epf-filetype-odb:before {
+  content: "\e072";
+}
+.epf-filetype-odc:before {
+  content: "\e073";
+}
+.epf-filetype-odf:before {
+  content: "\e074";
+}
+.epf-filetype-odg:before {
+  content: "\e075";
+}
+.epf-filetype-odi:before {
+  content: "\e076";
+}
+.epf-filetype-odp:before {
+  content: "\e077";
+}
+.epf-filetype-ods:before {
+  content: "\e078";
+}
+.epf-filetype-odt:before {
+  content: "\e079";
+}
+.epf-filetype-odt:before {
+  content: "\e07a";
+}
+.epf-filetype-odx:before {
+  content: "\e07b";
+}
+.epf-filetype-ogg:before {
+  content: "\e07c";
+}
+.epf-filetype-otf:before {
+  content: "\e07d";
+}
+.epf-filetype-otf:before {
+  content: "\e07e";
+}
+.epf-filetype-pages:before {
+  content: "\e07f";
+}
+.epf-filetype-pct:before {
+  content: "\e080";
+}
+.epf-filetype-pdb:before {
+  content: "\e081";
+}
+.epf-filetype-pdf:before {
+  content: "\e082";
+}
+.epf-filetype-pif:before {
+  content: "\e083";
+}
+.epf-filetype-pkg:before {
+  content: "\e084";
+}
+.epf-filetype-pl:before {
+  content: "\e085";
+}
+.epf-filetype-png:before {
+  content: "\e086";
+}
+.epf-filetype-pps:before {
+  content: "\e087";
+}
+.epf-filetype-ppt:before {
+  content: "\e088";
+}
+.epf-filetype-pptx:before {
+  content: "\e089";
+}
+.epf-filetype-ps:before {
+  content: "\e08a";
+}
+.epf-filetype-psd:before {
+  content: "\e08b";
+}
+.epf-filetype-pub:before {
+  content: "\e08c";
+}
+.epf-filetype-python:before {
+  content: "\e08d";
+}
+.epf-filetype-ra:before {
+  content: "\e08e";
+}
+.epf-filetype-rar:before {
+  content: "\e08f";
+}
+.epf-filetype-raw:before {
+  content: "\e090";
+}
+.epf-filetype-rm:before {
+  content: "\e091";
+}
+.epf-filetype-rom:before {
+  content: "\e092";
+}
+.epf-filetype-rpm:before {
+  content: "\e093";
+}
+.epf-filetype-rss:before {
+  content: "\e094";
+}
+.epf-filetype-rtf:before {
+  content: "\e095";
+}
+.epf-filetype-sav:before {
+  content: "\e096";
+}
+.epf-filetype-sdf:before {
+  content: "\e097";
+}
+.epf-filetype-settings:before {
+  content: "\e098";
+}
+.epf-filetype-sitx:before {
+  content: "\e099";
+}
+.epf-filetype-sql:before {
+  content: "\e09a";
+}
+.epf-filetype-sql:before {
+  content: "\e09b";
+}
+.epf-filetype-srt:before {
+  content: "\e09c";
+}
+.epf-filetype-svg:before {
+  content: "\e09d";
+}
+.epf-filetype-swf:before {
+  content: "\e09e";
+}
+.epf-filetype-sys:before {
+  content: "\e09f";
+}
+.epf-filetype-tar:before {
+  content: "\e0a0";
+}
+.epf-filetype-tex:before {
+  content: "\e0a1";
+}
+.epf-filetype-tga:before {
+  content: "\e0a2";
+}
+.epf-filetype-thm:before {
+  content: "\e0a3";
+}
+.epf-filetype-tiff:before {
+  content: "\e0a4";
+}
+.epf-filetype-tmp:before {
+  content: "\e0a5";
+}
+.epf-filetype-torrent:before {
+  content: "\e0a6";
+}
+.epf-filetype-ttf:before {
+  content: "\e0a7";
+}
+.epf-filetype-txt:before {
+  content: "\e0a8";
+}
+.epf-filetype-uue:before {
+  content: "\e0a9";
+}
+.epf-filetype-vb:before {
+  content: "\e0aa";
+}
+.epf-filetype-vcd:before {
+  content: "\e0ab";
+}
+.epf-filetype-vcf:before {
+  content: "\e0ac";
+}
+.epf-filetype-vob:before {
+  content: "\e0ad";
+}
+.epf-filetype-wav:before {
+  content: "\e0ae";
+}
+.epf-filetype-wma:before {
+  content: "\e0af";
+}
+.epf-filetype-wmv:before {
+  content: "\e0b0";
+}
+.epf-filetype-wpd:before {
+  content: "\e0b1";
+}
+.epf-filetype-wps:before {
+  content: "\e0b2";
+}
+.epf-filetype-wsf:before {
+  content: "\e0b3";
+}
+.epf-filetype-xhtml:before {
+  content: "\e0b4";
+}
+.epf-filetype-xlr:before {
+  content: "\e0b5";
+}
+.epf-filetype-xls:before {
+  content: "\e0b6";
+}
+.epf-filetype-xlsx:before {
+  content: "\e0b7";
+}
+.epf-filetype-xml:before {
+  content: "\e0b8";
+}
+.epf-filetype-yuv:before {
+  content: "\e0b9";
+}
+.epf-filetype-zip:before {
+  content: "\e0ba";
+}
+
+.icon-eye-plus:before {
+    content: "\e698";
+}
